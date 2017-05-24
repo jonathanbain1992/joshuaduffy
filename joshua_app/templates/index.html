@@ -1,0 +1,77 @@
+{%extends 'base.html'%}
+{%block bodyblock%}
+
+    
+      <div class="row">
+        <div class="col s6 align-left">
+          <div class="card small #ef9a9a red accent-5">
+            <div class="card-image">
+              <img src="http://stockfresh.com/files/c/candyboxphoto/m/44/198205_stock-photo-fashion-designer-studio-with-professional-equipment.jpg">
+              <span class="card-title orange-text text-darken-1">Clothing Design</span>
+            </div>
+            <div class="card-content white-text">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus ullamcorper eros finibus suscipit. Morbi elementum justo a auctor ultrices. Nulla id tortor rhoncus, pharetra arcu non, venenatis erat. Nam id libero sed lacus consequat sodales. Duis fringilla posuere laoreet. Cras nibh ligula, dictum a arcu vel, bibendum viverra odio. Donec semper dolor odio, sed lacinia sem pretium tincidunt. Praesent sed ex eget turpis finibus accumsan eu scelerisque elit. Vestibulum sagittis rhoncus metus in finibus.</p>
+            </div>
+            <div class="card-action">
+              <a href="#">go to design gallery</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s6 align-right">
+          <div class="card small #ef9a9a red accent-5">
+            <div class="card-image">
+              <img src="http://images.hellogiggles.com/uploads/2016/06/13090430/ugly-betty-0.jpg">
+              <span class="card-title orange-text text-darken-1">Translation Services</span>
+            </div>
+            <div class="card-content white-text">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus ullamcorper eros finibus suscipit. Morbi elementum justo a auctor ultrices. Nulla id tortor rhoncus, pharetra arcu non, venenatis erat. Nam id libero sed lacus consequat sodales. Duis fringilla posuere laoreet. Cras nibh ligula, dictum a arcu vel, bibendum viverra odio. Donec semper dolor odio, sed lacinia sem pretium tincidunt. Praesent sed ex eget turpis finibus accumsan eu scelerisque elit. Vestibulum sagittis rhoncus metus in finibus.</p>
+            </div>
+            <div class="card-action">
+              <a href="#">View Resume</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--sign up to news letter form -->
+  <div class="row">
+    <div class="col s12">
+      <div class="card #ef9a9a red accent-5">
+        <div class="container">
+          <div class="card-title white-text">
+            <div class="row">
+                <!--form goes here -->
+                <div class="row">
+    <form class="col s12">
+      <div class="col s3">
+        <br>
+        Newsletter Signup {{hello}}
+      </div>
+      <div class="row">
+        <div class="input-field col s6">
+          <i class="material-icons prefix account_circle"></i>
+          <input class="icon_prefix " type="text" class="validate">
+          <label for="icon_prefix">First Name</label>
+        </div>
+        <div class="input-field col s6">
+          <i class="material-icons prefix phone"></i>
+          <input id="icon_email" type="email" class="validate">
+          <label for="icon_email">Email Address</label>
+        </div>
+      </div>
+    </form>
+  </div>
+
+
+
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+{%endblock%}

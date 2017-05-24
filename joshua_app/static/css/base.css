@@ -1,0 +1,17 @@
+/*n00bnote#2: stylesheet for base site, do not change the directory of this file, or other css files*/
+
+
+/*overloading materialise css default tile / card background colour*/
+/*.red{
+      background-color: #0a0a0a !important; /*black because joshua is weird.*/
+      /*old orangy colour: #F44336 */
+/*}
+
+/*and the bloody font as well - designer my arse joshua*/
+/*.html {
+    line-height: 1.5;
+    /*font-family: "Roboto", sans-serif;*/
+/*    font-family: 'Barrio', cursive;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.87);
+}

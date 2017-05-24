@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+{%load static%}
+<html>
+  <head>
+    <!-- need materialize, ajax, json and jquery etc cdn links-->
+    <link href="https://fonts.googleapis.com/css?family=Barrio" rel="stylesheet">
+    <link rel="stylesheet" href="{% static "css/base.css" %}" />
+    <link rel="stylesheet" href="{% static "css/materialize-src/sass/materialise.css" %}" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"> </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.js"> </script>
+  </head>
+
+  <body class="white">
+  <div class="container">
+    <nav>
+      <div class="nav-wrapper #ef9a9a red accent-5">
+        <a href="#" class="brand-logo left white-text text-lighten-1">Joshua Espinoza.</a>
+
+        <ul id="nav-mobile" class="right hide-on-small-and-down">
+          <li><a class="white-text text-darken-2" href="collapsible.html">STORE</a></li>
+          <li><a class="white-text text-darken-2" href="sass.html">GALLERY</a></li>
+          <li><a class="white-text text-darken-2" href="badges.html">PRICING</a></li>
+          <li><a class="white-text text-darken-2" href="collapsible.html">CONTACT</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <br>
+  <div class="container">
+  <!-- XXX: for any n00bs, do NOT delete these tags-->
+  {%block bodyblock%}
+  {%endblock%}
+  <!-- XXX -->
+
+<!--copyright footer  -->
+  <footer class="page-footer #ef9a9a red accent-5 test">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text center">Footer Content</h5>
+          <p class="white-text center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus ullamcorper eros finibus suscipit.</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text center">Links</h5>
+            <ul class="center">
+              <li><a class="white-text " href="#!">God Save The Queen</a></li>
+              <li><a class="white-text " href="#!">#BetterTogether</a></li>
+              <li><a class="white-text " href="#!">Scottish Conservitives</a></li>
+              <li><a class="white-text " href="#!">#VoteLeave</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container white-text">
+          © 2016 Copyright Jonathan Bain / Joshua Espinoza
+          <a class="white-text right" href="#!">My GitHub</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
