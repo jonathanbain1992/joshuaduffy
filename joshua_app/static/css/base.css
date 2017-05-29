@@ -21,6 +21,13 @@
   font-family: 'Barrio', cursive !important;
 }
 
+.side-menu-text {
+  font-family: 'Barrio';
+  color: "White";
+  font-size: 24px;
+  padding-left: 32px;
+}
+
 .card-text{
   color: "Black";
 }
