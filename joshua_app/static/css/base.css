@@ -15,3 +15,62 @@
     font-weight: normal;
     color: rgba(0, 0, 0, 0.87);
 }
+*/
+
+.brand-logo {
+  font-family: 'Barrio', cursive !important;
+}
+
+.card-text{
+  color: "Black";
+}
+.p{
+  color:"Black";
+}
+
+/*.card-title {
+  color: black;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  padding: $card-padding;
+  font-size: 24px;
+  font-weight: 300;
+}*/
+
+.card-padding-title{
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+}
+
+.card-padding-text{
+
+  padding-bottom: 1em;
+  text-align: center;
+}
+
+.icon-colour{
+  background-color: white;
+  color: white;
+
+}
+
+.card .card-image .card-title {
+  color: black;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  padding: 24px;
+}
+
+.teal-text {
+    color: white; !important;
+}
+
+textarea.materialize-textarea:focus.valid {
+    border-bottom: 1px solid white;
+    box-shadow: 0 1px 0 0 white;
+}

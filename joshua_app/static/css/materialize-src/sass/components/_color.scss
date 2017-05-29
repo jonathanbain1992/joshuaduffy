@@ -258,6 +258,9 @@ $amber: (
   "accent-4":    #ffab00
 );
 
+
+
+
 $orange: (
   "base":       #ff9800,
   "lighten-5":  #fff3e0,
@@ -371,7 +374,7 @@ $colors: (
         background-color: $color_value !important;
       }
       .#{$color_name}-text {
-        color: $color_value !important;
+        color: $color_value;
       }
     }
     @else if $color_name != "shades" {
@@ -409,4 +412,3 @@ $colors: (
   @warn "Unknown `#{name}` in $colors.";
   @return null;
 }
-

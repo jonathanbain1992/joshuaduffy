@@ -8,7 +8,9 @@ class index(TemplateView):
     #template_name = 'index.html'
 
     context_dict = {}
-    context_dict['hello'] = "test"
+    context_dict['signup_title'] = "lets be friends"
+    context_dict['bio_title'] = "Hello World."
+    context_dict['bio_content'] = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id faucibus orci. Morbi libero erat, dictum sit amet pharetra eget, fringilla at turpis. Quisque nec ipsum fermentum nulla finibus tincidunt quis quis magna. Ut eu porttitor diam. Morbi ut justo venenatis, porta metus sed, scelerisque mi. Mauris vel risus nec lectus elementum pellentesque et et orci. Integer vel sagittis felis, eget scelerisque nunc. Ut libero lorem, congue vel fringilla"
     def get(self, request, *args, **kwargs):
         return render(request, "index.html", self.context_dict)
 
