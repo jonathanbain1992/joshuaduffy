@@ -1,0 +1,66 @@
+{%extends 'base.html'%}
+{%load static%}
+
+
+{%block bodyblock%}
+
+
+<div class="row resume-page">
+    {%if resume_object%}
+
+
+    <div class="brand-logo" style="font-size:2.1rem; text-align:left; padding-left:2.1em; padding-bottom:1em; padding-top:1em;">
+        JUST CALL ME {{resume_object.first_name}}. <!-- {{resume.middle_name}} {{resume.sur_name}}-->
+        <span class="brand-logo" style="font-size:2.1rem; text-align:right; padding-left:4em; padding-bottom:1em; padding-top:1em;">
+             <i class="material-icons">phone</i> {{resume_object.telephone}}. <!-- {{resume.middle_name}} {{resume.sur_name}}-->
+        </span>
+      </div>
+
+      {%for object in resume_object%}
+        {{object.get_fields}}
+        {%endfor%}
+
+
+
+
+
+
+
+
+    <div class="white-text text-darken-2">
+      <table>
+        <thead>
+          <tr>
+              <th>Name</th>
+              <th>Item Name</th>
+              <th>Item Price</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Alvin</td>
+            <td>Eclair</td>
+            <td>$0.87</td>
+          </tr>
+          <tr>
+            <td>Alan</td>
+            <td>Jellybean</td>
+            <td>$3.76</td>
+          </tr>
+          <tr>
+            <td>Jonathan</td>
+            <td>Lollipop</td>
+            <td>$7.00</td>
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+
+      {%endif%}
+</div>
+
+
+
+{%endblock%}

@@ -16,9 +16,19 @@
     color: rgba(0, 0, 0, 0.87);
 }
 */
+.resume-page{
+   background-color: rgba(0, 0, 0, 1);
+   color: rgba(255,255,255,1);
+   padding-top: 1em;
+   padding-bottom: 1em;
+   padding-left: 1em;
+   padding-right: 1em;
+  /* text-align: center;*/
+}
 
 .brand-logo {
   font-family: 'Barrio', cursive !important;
+
 }
 
 .side-menu-text {

@@ -19,6 +19,9 @@ from django.contrib import admin
 from joshua_app import views
 
 urlpatterns = [
+    url(r'^admin/', include(admin.site.urls)),
     url(r'^$', views.index.as_view(), name='index'),
+    url(r'^admin/', admin.site.urls),
+    url(r'^resume/$', views.resume.as_view(), name='resume'),
     url(r'^about/$', views.about.as_view(), name='about'),
 ]
